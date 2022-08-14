@@ -1,0 +1,74 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.gradient {
+    background: linear-gradient(90deg, rgba(45, 156, 219, .6), rgba(155, 81, 224, .6));
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: aliceblue;
+    text-decoration: none;
+    -webkit-box-shadow: 2px 4px 5px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3)2
+}
+
+.container {
+    margin-top: 50px;
+    width: 1000px;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    /*margin: 0 auto 0 auto;*/
+    margin: 50px auto 0;
+}
+
+.left-bar {
+    width: 20px;
+    float: left;
+}
+
+.content {
+    width: 800px;
+    float: left;
+}
+
+.card {
+    width: 20%;
+    float: left;
+    padding: 5%;
+    margin-right: 3%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    /* yuvarlak bir görünüm veriyor*/
+}
+
+.clearfix {
+    clear: both;
+    float: left;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    /*yazıyı burada ortaya taşıyoruz*/
+    margin-right: 10px;
+    /*margin-left: 10px;*/
+    /*burada boşluk oluşturuyoruz (her yerden 1*px aldı. left-right top-bottom*/
+    float: left;
+}
+
+.bg-plum {
+    background-color: plum;
+}
+
+.bg-lightcoral {
+    background-color: lightcoral;
+}
+
+.bg-lightblue {
+    background-color: lightblue
+}
